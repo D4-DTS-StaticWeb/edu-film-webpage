@@ -46,7 +46,7 @@ main * {
 }
 
 .top-wrapper {
-    height: 100px;
+    height: 100vh;
 }
 
 .top-wrapper h2 {
@@ -54,7 +54,7 @@ main * {
 }
 
 .top-wrapper img {
-    width: 200px;
+    width: 400px;
 }
 
 #informasi {
