@@ -53,9 +53,9 @@ main * {
     text-align: left;
 }
 
-.top wrapper p {
+.top-wrapper p {
     text-align: justify;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .top-wrapper img {
