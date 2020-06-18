@@ -53,10 +53,6 @@ main * {
     text-align: left;
 }
 
-.top-wrapper p {
-    text-align: justify;
-}
-
 .top-wrapper img {
     width: 400px;
 }
