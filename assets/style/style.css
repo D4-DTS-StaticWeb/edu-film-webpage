@@ -45,7 +45,8 @@ main * {
 }
 
 .top-wrapper {
-    height: 100px;
+    height: 100vh;
+    background-size: cover;
 }
 
 .top-wrapper {
