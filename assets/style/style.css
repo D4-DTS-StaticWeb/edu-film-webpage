@@ -48,6 +48,11 @@ main * {
     height: 100px;
 }
 
+.top-wrapper {
+    height: 100px;
+    text-align: justify;
+}
+
 
 .top-wrapper img {
     width: 400px;
