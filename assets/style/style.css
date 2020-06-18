@@ -48,8 +48,7 @@ main * {
     height: 100vh;
 }
 
-.top-wrapper {
-    height: 100px;
+.top-wrapper p {
     text-align: justify;
 }
 
@@ -78,6 +77,7 @@ main * {
     height: 400px;
     width: 20%;
 }
+
 
 #tentangkami {
     width: 100%;
