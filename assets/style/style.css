@@ -48,11 +48,6 @@ main * {
     height: 100vh;
 }
 
-.top-wrapper p {
-    text-align: justify;
-}
-
-
 .top-wrapper img {
     width: 400px;
 }
