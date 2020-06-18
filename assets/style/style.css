@@ -48,17 +48,10 @@ main * {
     height: 200px;
 }
 
-.top-wrapper h2 {
-    text-align: left;
-}
-
-.top-wrapper p {
-    text-align: justify;
-}
 
 .top-wrapper img {
     width: 400px;
-    background-size: cover;.
+    background-size: cover;
 }
 
 #informasi {
