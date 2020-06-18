@@ -59,7 +59,8 @@ main * {
 }
 
 .top-wrapper img {
-    width: 400px;
+    /*width: 400px;*/
+    image-size: cover;
 }
 
 #informasi {
