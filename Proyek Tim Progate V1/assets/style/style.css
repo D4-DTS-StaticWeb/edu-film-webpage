@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+header {
+    height: 75px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 0px 29px 0px rgba(129,133,177,1);
+    background-color: rgba(0,0,0,0.8);
+    color: #8185B1;
+    position: sticky;
+    top: 0;
+    z-index: 45;
+}
+
+header a {
+    color:yellow;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+header a:active{
+    color:red;
+}
+
+header h1{
+    color:red;
+    font-weight:bold;
+    font-size:40px;
+    margin-top:8px;
+    border-radius:25px;
+}
+
+.penggumuman img{
+    width:100%;
+    border-radius:25px;
+}
+
+.header-left {
+    float:  left;
+    line-height: 65px;
+    margin-left: 20px;
+}
+
+.header-right {
+    float: right;
+    line-height: 65px;
+    color:green;
+}
+
+.header-right li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+/*Bagian Utama*/
+main {
+   width: 100%;
+    padding-bottom: 100px;
+}
+
+.top-wrapper {
+    height: 100%;
+    padding-top:30px;
+    text-align: center;
+    border-radius:10px;
+    padding-top:20px;
+    width:100%;
+}
+
+.top-wrapper h1{ /*Informasi*/
+    letter-spacing:40px;
+    border:4px solid black;
+    font-size: 40px;
+    text-align: center;
+    border-radius:10px;
+}
+
+.top-wrapper h2{
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+span{
+    color:red;
+}
+
+.top-wrapper img {
+    width: 379px;
+    float:left;
+    margin-right:20px;
+}
+
+.top-wrapper p{
+    font-size:22px;
+    text-align: left;
+    width: 99%;
+    margin:10px;
+}
+
+/*Daftar Film*/
+.film-wrapper{
+    text-align: center:;
+}
+
+
+
+/*Tentang Kami*/
+#container-title h1{
+    letter-spacing:40px;
+    border:4px solid black;
+    font-size:40px;
+    margin-top:80px;
+    width:100%;
+    text-align: center;
+    border-radius:10px;
+    position: static;
+}
+
+.container-tambahan{
+    display:flex;
+    text-align:center;
+    width:100%;
+}
+
+.biodata{
+    float:left;
+    width:20%;
+    height:400px;
+    position:relative;
+}
+
+.biodata h3{
+  position:absolute;
+  top:120px;
+  left:15px;
+  width:100%;
+  color:white;
+}
+
+.biodata img{
+    width:280px;
+    height:280px;
+    margin-right:80px;
+    padding:10px;
+}
+.biodata p{
+  width:90%;
+  display:inline-block;
+  margin:auto;
+  font-size:15px;
+  color:black;
+}
+#tentangkami {
+    width: 100%;
+    margin: 10px 20px 10px 20px;
+    padding: 50px;
+    left:20px;
+}
+/*#tentangkami h1{
+    letter-spacing:40px;
+    border:4px solid black;
+    font-size:40px;
+    margin-top:20px;
+    width:100%;
+}
+
+.container-tambahan {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.biodata {
+    float: left;
+    height: 400px;
+    width: 20%;
+}
+
+.biodata img {
+    width: 200px;
+}
+
+#tentangkami {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}*/
+
+
+
+
+/* footer jadiin class paling bawah ya */
+
+footer {
+    padding: 20px;
+    color: #1d1d1d;
+    background-color: #c5c5c5;
+    text-align: center;
+    position: static;
+}
