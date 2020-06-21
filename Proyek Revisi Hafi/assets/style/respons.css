@@ -9,5 +9,9 @@
 .header-right{
 	display: none;
 }
+	
+.film-img {
+	width: 100%;
+}
 
 }
