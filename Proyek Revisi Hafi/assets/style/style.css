@@ -254,9 +254,9 @@ span{
 /* footer jadiin class paling bawah ya */
 
 footer {
-    height: 75px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     color: #1d1d1d;
     background-color: #c5c5c5;
     text-align: center;
