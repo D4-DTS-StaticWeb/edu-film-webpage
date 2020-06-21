@@ -1,15 +1,14 @@
 @media all and (max-width: 1000px){
-
-
+.biodata-icon{
+	width: 25%;
 }
-
-
-
+}
 
 @media all and (max-width: 670px){
 .header-right{
 	display: none;
 }
-
-
+.biodata-icon{
+	width: 50%;
+}
 }
