@@ -186,7 +186,10 @@ span{
     color:black;
 }
 
-
+/* Tambahkan CSS untuk clear */
+.clear{
+  clear:left;
+}
 
 /*Tentang Kami*/
 #container-tambahan{
