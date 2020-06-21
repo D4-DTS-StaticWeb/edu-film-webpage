@@ -255,7 +255,8 @@ span{
 
 footer {
     height: 75px;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     color: #1d1d1d;
     background-color: #c5c5c5;
     text-align: center;
