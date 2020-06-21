@@ -1,6 +1,6 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px){
-.biodata-icon img {
+.biodata img {
 	width: 50%;
 }
 }
@@ -10,11 +10,8 @@
 .header-right{
 	display: none;
 }
-	
-.top-wrapper h1 {
-	text-align: center;
-}
-.biodata-icon img {
+
+.biodata img {
 	width: 100%;
 }
 }
