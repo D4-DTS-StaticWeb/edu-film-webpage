@@ -1,6 +1,6 @@
 @media all and (max-width: 1000px){
 .biodata-icon{
-	width: 25%;
+	width: 50%;
 }
 }
 
@@ -9,6 +9,6 @@
 	display: none;
 }
 .biodata-icon{
-	width: 50%;
+	width: 100%;
 }
 }
