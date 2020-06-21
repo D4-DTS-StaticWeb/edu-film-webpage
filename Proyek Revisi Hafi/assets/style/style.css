@@ -234,13 +234,14 @@ span{
     margin-left:5px;
 }
 .biodata h1{
-    font-size: 20px;
+    font-size: 40px;
     color:red;
     background-color:white;
     height:30px;
+    width: 100%;
     padding-top:4px;
     margin-bottom:20px;
-    box-shadow:1px 7px black;
+    box-shadow:0 7px black;
     border-radius: 8px;
 }
 
