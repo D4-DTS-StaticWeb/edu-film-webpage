@@ -7,6 +7,11 @@
     font-family: "Fira Sans Condensed", sans-serif;
 }
 
+.main_container {
+    width: 80%;
+    margin: auto;
+
+}
 header {
     height: 75px;
     border-bottom-left-radius: 25px;
@@ -77,9 +82,10 @@ header fa {
 
 /*Bagian Utama*/
 main {
-   width: 100%;
+    width: 100%;
     padding-bottom: 100px;
-    padding-top:40px;
+    padding-top:120px;
+    margin-top: -80px;
     background-color: lightblue;
 }
 
@@ -89,12 +95,13 @@ main {
     border-radius:10px;
     padding-top:20px;
     width:100%;
+    margin: auto;
 }
 
 .top-wrapper h1{ /*Informasi*/
     letter-spacing:20px;
     border:4px solid black;
-    font-size: 70px;
+    font-size: 40px;
     text-align: center;
     border-radius:10px;
 }
@@ -110,43 +117,66 @@ span{
 }
 
 .top-wrapper img {
-    width: 50%;
+    width: 40%;
     margin-right:20px;
     float: left;
 }
 
 .top-wrapper p{
     font-size:22px;
-    text-align: left;
+    text-align: justify;
     margin-right:30px;
     box-sizing: border-box;
     line-height: 30px;
 
 }
 
+.container-informasi {
+    width: 75%;
+    margin: auto;
+}
+
 /*Daftar Film*/
 .list-title h1{
     letter-spacing:20px;
     border:4px solid black;
-    font-size: 70px;
+    font-size: 40px;
     text-align: center;
     border-radius:10px;
     margin-top:200px;
 }
 
 .film-wrapper{
-    position: relative;
+    position: top;
+    display: inline-block;
+    width:100%;
 }
 
 .films{
-    width:100%;
+    position: relative;
+    display: inline-block;
+    width:45%;
+    height: 900px;
     text-align:center;
-    border-radius: 22px 22px 22px 22px;
+    border-radius: 5%;
+    padding: 5px;
     box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
-
+    margin: 4% 2% 0%;
 }
+
+.contentfilm {
+    height: 300px;
+    width: 95%;
+    padding-top: 10px;
+    border: 5%;
+    text-align: justify;
+    overflow: auto;
+    margin: auto;
+}
+
+
 .films h3{
-    font-size:40px;
+    font-size:30px;
     margin-top:50px;
     margin-bottom: 10px;
     border-bottom:1px solid black;
@@ -155,15 +185,15 @@ span{
 }
 
 .films img{
-    height:90%;
+    width:50%;
 }
 
 .films p{
     text-align: center
     line-height:20px;
     margin-top:10px;
-    font-size:25px;
-    padding:20px 150px 20px 150px;
+    font-size:20px;
+    padding:20px 10% 20px;
 }
 
 .btn{
@@ -225,19 +255,22 @@ span{
     right:20px;
     border-radius: 22px 22px 22px 22px;
     box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    width:99%;
+    margin: auto;
 
 }
 
 .biodata{
-    width:40%;
-    margin-right:20px;
-    margin-bottom:20px;
+    width:18%;
+    margin: left;
+    margin: 1%;
     padding-top:50px;
     position: relative;
 }
 
 .biodata img{
-    height:49.7%;
+    /*height:49.7%;*/
+    width: 90%;
     margin-left:5px;
 }
 .biodata h1{
@@ -269,6 +302,8 @@ footer {
     text-align: center;
     position: static;
     font-size:20px;
+    width: 80%;
+    margin: auto;
 }
 .bottom{
     font-size:10px;
@@ -284,7 +319,7 @@ footer {
 
 
 /*Responsive*/
-@media (max-width: 1400px){
+@media (max-width: 1040px){
     .menu-icon{
         padding-top:25px;
         width: 50px;
@@ -293,6 +328,12 @@ footer {
     .menu-icon:active{
         color:red;
     }
+
+    .main_container {
+    width: 100%;
+    margin: auto;
+    }
+        
 
     .top-wrapper h1{
         letter-spacing:10px;
@@ -304,7 +345,7 @@ footer {
 
     .top-wrapper p{
         font-size:22px;
-        text-align: left;
+        text-align: justify;
     }
 
     .top-wrapper img {
@@ -341,6 +382,10 @@ footer {
         margin-bottom: 20px;
     }
 
+    .films{
+        height:800px;
+    }
+
     .films p{
         font-size:20px;
     }
@@ -351,7 +396,7 @@ footer {
         text-align: center;
         border-radius: 22px 22px 22px 22px;
         box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
-        height:400%;
+        height:210%;
 
     }
     .biodatas{
@@ -360,6 +405,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         box-shadow:none;
+        width: 80%;
 
     }
 
@@ -367,10 +413,11 @@ footer {
         width:40%;
         height:70%;
         text-align: center;
+        margin-bottom: 100px;
     }
 
     .biodata img{
-/*        width:50%*/
+        width:50%
         height:70%;
         position: static;
         margin-left:2px;
@@ -394,6 +441,10 @@ footer {
         font-size: 15px;
     }
 
+    footer {
+        width: 100%;
+    }
+
 
 }
 
@@ -406,7 +457,19 @@ footer {
     header a{
     display:none;
     }
-        .top-wrapper img {
+
+    .main_container {
+    width: 100%;
+    margin: auto;
+    }
+
+    .top-wrapper p{
+        font-size:18px;
+        text-align: justify;
+    }
+
+
+    .top-wrapper img {
         margin-right:20px;
         background-size: cover
     }
@@ -418,7 +481,7 @@ footer {
     .list-title h1{
         letter-spacing:20px;
         border:4px solid black;
-        font-size: 70px;
+        font-size: 20px;
         text-align: center;
         border-radius:10px;
         margin-top:200px;
@@ -433,10 +496,13 @@ footer {
         text-align:center;
         border-radius: 22px 22px 22px 22px;
         box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+        /*margin:0px;*/
+
 
     }
+
     .films h3{
-        font-size:40px;
+        font-size:20px;
         margin-top:50px;
         margin-bottom: 10px;
         border-bottom:1px solid black;
@@ -452,8 +518,12 @@ footer {
         text-align: center
         line-height:20px;
         margin-top:10px;
-        font-size:25px;
+        font-size:16px;
         padding:10px 15px 10px 15px;
+    }
+
+    .btn {
+        margin-top:-20px;
     }
 
     #container-tambahan{
@@ -461,7 +531,7 @@ footer {
         text-align: center;
         border-radius: 22px 22px 22px 22px;
         box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
-        height:400%;
+        height:350%;
     }
 
 
@@ -472,19 +542,20 @@ footer {
     }
 
     .biodata img{
-        height:60%;
+        width:80%;
+
         margin-left:2px;
         box-sizing: border-box;
     }
 
     .biodata h1{
-        font-size: 15px;
+        font-size: 16px;
         color:red;
         background-color:white;
         height:30px;
         width:100%;
         padding-top:6px;
-        margin-bottom:20px;
+        margin-bottom:10px;
         box-shadow:0 7px black;
         border-radius: 8px;
         flex-direction: column;
@@ -492,12 +563,13 @@ footer {
 
     .biodata p{
         font-style:bold;
-        font-size: 10px;
+        font-size: 14px;
         flex-direction: column;
     }
 
 
     footer {
+        width: 100%;
         height: 75px;
         padding: 20px;
         color: #1d1d1d;
