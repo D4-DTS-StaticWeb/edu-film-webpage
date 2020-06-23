@@ -293,13 +293,6 @@ span{
 
 
 /* footer jadiin class paling bawah ya */
-
-
-
-.bottom{
-    font-size:10px;
-}
-
 footer {
     height: 75px;
     line-height:50px;
@@ -311,7 +304,12 @@ footer {
     width: 80%;
     margin: auto;
     bottom:0px;
-    padding-top: 20px;
+    padding: 20px;
+}
+
+
+.bottom{
+    font-size:10px;
 }
 
 
