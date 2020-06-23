@@ -296,7 +296,7 @@ span{
 
 footer {
     height: 75px;
-    padding: 20px 30px;
+    /*padding: 20px 30px*/
     color: #1d1d1d;
     background-color: #c5c5c5;
     text-align: center;
@@ -306,6 +306,8 @@ footer {
     margin: auto;
     position:absolute;
    bottom:0;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .bottom{
     font-size:10px;
